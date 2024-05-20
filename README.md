@@ -6,16 +6,15 @@
 
 ## Setup
 
-> First navigate to your desired working directory and clone this repository with   
-> `git clone https://github.com/raphaelquast/EOmaps_GeoPython2024.git`
-
+First navigate to your desired working directory and clone this repository. 
 
 You can then setup all you need with `venv/pip` or `conda/mamba`:
 
-<details><summary><font size=4>venv / pip</font></summary>
+<br>
 
-> No working `python` on your system?  
-> Install [python](https://www.python.org/downloads/)!
+<details><summary>Installation with <code>venv / pip</code> <b>[click to show]</b> </summary>
+
+> No working `python` on your system?  >>> Install [python](https://www.python.org/downloads/)!
 
 1. Create a new virtual environment:  
     `python -m venv "venv_folder_path"`
@@ -23,14 +22,15 @@ You can then setup all you need with `venv/pip` or `conda/mamba`:
     `venv_folder_path\Scripts\activate`
 3. Install required packages:  
    `pip install eomaps[all] jupyterlab`
-4. Navigate to your working directory and start Jupyter Lab:  
+5. Navigate to your working directory and start Jupyter Lab:  
    `jupster lab`
 </details>
 
-<details><summary><font size=4>conda / mamba</font></summary>
+<br>
 
-> No working `python + conda/mamba` on your system?  
-> Install [miniforge](https://github.com/conda-forge/miniforge)!
+<details><summary>Installation with <code>conda / mamba</code> <b>[click to show]</b> </summary>
+
+> No working `python + conda/mamba` on your system?  >>> Install [miniforge](https://github.com/conda-forge/miniforge)!
 
 1. Ceate a new virtual environment:  
     `mamba create -n "name_of_environment"`
@@ -42,3 +42,11 @@ You can then setup all you need with `venv/pip` or `conda/mamba`:
 `jupster lab`
 
 </details>
+
+
+--- 
+
+Once the installation is done, navigate to the folder containing the cloned repository and run 
+```
+jupyter lab
+```
