@@ -4,6 +4,8 @@
 </h1>
 <br>
 
+This repository contains the code and data for the [EOmaps](https://eomaps.readthedocs.io) workshop @[GeoPythyon2024](https://2024.geopython.net).
+
 ## Setup
 
 First navigate to your desired working directory and clone this repository. 
@@ -16,14 +18,12 @@ You can then setup all you need with `venv/pip` or `conda/mamba`:
 
 > No working `python` on your system?  >>> Install [python](https://www.python.org/downloads/)!
 
-1. Create a new virtual environment:  
-    `python -m venv "venv_folder_path"`
-2. Activate the environment:  
-    `venv_folder_path\Scripts\activate`
+1. Navigate to your desired working directory and create a new virtual environment:  
+    `python -m venv "eomaps_geopython24"`
+2. Activate the environment (see [python docs](https://docs.python.org/3/library/venv.html#how-venvs-work) for details on different platforms and shells):  
+    `eomaps_geopython24\Scripts\activate`
 3. Install required packages:  
    `pip install eomaps[all] jupyterlab`
-5. Navigate to your working directory and start Jupyter Lab:  
-   `jupster lab`
 </details>
 
 <br>
@@ -33,14 +33,9 @@ You can then setup all you need with `venv/pip` or `conda/mamba`:
 > No working `python + conda/mamba` on your system?  >>> Install [miniforge](https://github.com/conda-forge/miniforge)!
 
 1. Ceate a new virtual environment:  
-    `mamba create -n "name_of_environment"`
+    `mamba create -n "eomaps_geopython24" -c conda-forge eomaps jupyterlab netcdf4 ipywidgets`
 2. Activate the environment:  
-    `mamba activate "name_of_environment"`
-3. Install required packages:  
-   `mamba install -c conda-forge eomaps jupyterlab`
-4. Navigate to your working directory and start Jupyter Lab:  
-`jupster lab`
-
+    `mamba activate "eomaps_geopython24"`
 </details>
 
 
