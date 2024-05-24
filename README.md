@@ -28,7 +28,7 @@ You can then setup all you need with `venv/pip` or `conda/mamba`:
     `python -m venv "eomaps_geopython24"`
 2. Activate the environment (see [python docs](https://docs.python.org/3/library/venv.html#how-venvs-work) for help):  
     windows: `eomaps_geopython24\Scripts\activate`  
-    posix:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `source eomaps_geopython24\bin\activate`  
+    posix: `source eomaps_geopython24\bin\activate`  
 4. Install required packages:  
    `pip install eomaps[all] jupyterlab`
 
