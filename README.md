@@ -14,34 +14,40 @@ You can then setup all you need with `venv/pip` or `conda/mamba`:
 
 <br>
 
-<details><summary>Installation with <code>venv / pip</code> <b>[click to show]</b> </summary>
+<table>
+<tr>
+<td valign="top" width="50%">
 
-> No working `python` on your system?  >>> Install [python](https://www.python.org/downloads/)!
+🐍 **Installation with pip / venv**  
+  
+> No working `python`?  Install [python](https://www.python.org/downloads/)!
 
-1. Navigate to your desired working directory and create a new virtual environment:  
+---
+
+1. Create a new environment:  
     `python -m venv "eomaps_geopython24"`
-2. Activate the environment (see [python docs](https://docs.python.org/3/library/venv.html#how-venvs-work) for details on different platforms and shells):  
-    `eomaps_geopython24\Scripts\activate`
-3. Install required packages:  
+2. Activate the environment (see [python docs](https://docs.python.org/3/library/venv.html#how-venvs-work) for help):  
+    windows: `eomaps_geopython24\Scripts\activate`  
+    posix:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `source eomaps_geopython24\bin\activate`  
+4. Install required packages:  
    `pip install eomaps[all] jupyterlab`
-</details>
 
-<br>
+</td>
+<td valign="top" width="50%">
 
-<details><summary>Installation with <code>conda / mamba</code> <b>[click to show]</b> </summary>
+🐍 **Installation with conda / mamba**  
+  
+> No working `python + conda/mamba`?  Install [miniforge](https://github.com/conda-forge/miniforge)!
 
-> No working `python + conda/mamba` on your system?  >>> Install [miniforge](https://github.com/conda-forge/miniforge)!
+---
 
-1. Ceate a new virtual environment:  
+1. Ceate a new environment and install packages:  
     `mamba create -n "eomaps_geopython24" -c conda-forge eomaps jupyterlab netcdf4 ipywidgets`
 2. Activate the environment:  
     `mamba activate "eomaps_geopython24"`
-</details>
 
-
---- 
+</td></tr>
+</table>
 
 Once the installation is done, navigate to the folder containing the cloned repository and run 
-```
-jupyter lab
-```
+`jupyter lab`
