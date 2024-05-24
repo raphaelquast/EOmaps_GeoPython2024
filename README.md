@@ -51,3 +51,16 @@ You can then setup all you need with `venv/pip` or `conda/mamba`:
 
 Once the installation is done, navigate to the folder containing the cloned repository and run 
 `jupyter lab`
+
+---
+
+<br>
+
+### References
+The example datasets are small subsets of the following (open access) datasets:
+
+- **gridded_data**: [Copernicus Global Land - Global 0.1° gridded Soil Water Index][swi_data]
+- **swath_data**: [HSAF - MetOp ASCAT Surface Soil Moisture 6.25km NRT product][ssm_data]
+
+[ssm_data]: https://hsaf.meteoam.it/Products/ProductsList?type=soil_moisture  
+[swi_data]: https://land.copernicus.eu/en/products/soil-moisture/daily-soil-water-index-global-v3-0-12-5km
