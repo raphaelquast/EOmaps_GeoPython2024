@@ -26,7 +26,7 @@ You can then setup all you need with `venv/pip` or `conda/mamba`:
 
 1. Create a new environment:  
     `python -m venv "eomaps_geopython24"`
-2. Activate the environment (see [python docs](https://docs.python.org/3/library/venv.html#how-venvs-work) for help):  
+2. Activate the environment (see [python docs](https://docs.python.org/3/library/venv.html#how-venvs-work)):  
     windows: `eomaps_geopython24\Scripts\activate`  
     posix: `source eomaps_geopython24\bin\activate`  
 4. Install required packages:  
