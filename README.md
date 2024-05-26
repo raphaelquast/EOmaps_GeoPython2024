@@ -52,6 +52,12 @@ You can then setup all you need with `venv/pip` or `conda/mamba`:
 Once the installation is done, navigate to the folder containing the cloned repository and run 
 `jupyter lab`
 
+1. [Introduction](<0_introduction.ipynb>)
+2. [EOmaps Basics](<1_basics.ipynb>)
+3. [Data Visualization](<2_data_visualization.ipynb>)
+4. [Spatio-temporal analysis](<3_spatiotemporal_analysis.ipynb>)
+6. [Irregularly sampled data](<4_irregularly_sampled_data.ipynb>)
+
 ---
 
 <br>
